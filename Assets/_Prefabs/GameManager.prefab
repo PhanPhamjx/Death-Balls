@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3411078735913434354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3411078735913434356}
+  - component: {fileID: 3411078735913434358}
+  - component: {fileID: 3411078735913434355}
+  - component: {fileID: 3411078735913434357}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: pump
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3411078735913434356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411078735913434354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3411078735913434358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411078735913434354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e4770469378b54f8d7e09254cc6013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3411078735913434355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411078735913434354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76015d91860c5d44a82f40e395f877ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPoits: {fileID: 8823378451467989010, guid: 34b9a0de5bb05564ea89f0a02978eebc, type: 3}
+  spawnPositions:
+  - {fileID: 4382346222559063755, guid: 6bab6d2c45c63f44ea9d8f8da0df68fa, type: 3}
+  - {fileID: 2693104165274015438, guid: 8a91317490803e74b95c55d824df0628, type: 3}
+  - {fileID: 4871708015629735955, guid: c3794272b4fceb646b266d257f8e5b4d, type: 3}
+  - {fileID: 3147338298161175631, guid: 0734cdf612b7fc54681ae2fed80b6c23, type: 3}
+  - {fileID: 3147338298161175631, guid: 0734cdf612b7fc54681ae2fed80b6c23, type: 3}
+  - {fileID: 1890540275881374669, guid: 0d248cee5c3d1384eae5d96ecfb0a3e2, type: 3}
+  - {fileID: 5016533041245140970, guid: 6d0e31ef6ac69e14f83d7f33b6a65532, type: 3}
+  - {fileID: 7252293909295334414, guid: 2f7926191ee4f3d4197529204a24fefb, type: 3}
+  - {fileID: 1890540275881374669, guid: 0d248cee5c3d1384eae5d96ecfb0a3e2, type: 3}
+  - {fileID: 3147338298161175631, guid: 0734cdf612b7fc54681ae2fed80b6c23, type: 3}
+  balloonPrefabs:
+  - {fileID: 3593346673908171117, guid: bd300ef939e7b494694a55471a5292e3, type: 3}
+  - {fileID: 4640154595382154625, guid: c30e138f8b3ed3645a08d8cd4dbefd0f, type: 3}
+  - {fileID: 1182456116249444877, guid: 99d52a2027666374ca7d31315b570a1a, type: 3}
+  - {fileID: 7097180874265221268, guid: c1c3ad20203f66f48bd02139adbd1b64, type: 3}
+  - {fileID: 1095381111765533189, guid: 9922719bdac741f4c8972774bd3a305c, type: 3}
+  spawnInterval: 2
+  spawnRandomTime: 200
+--- !u!114 &3411078735913434357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411078735913434354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459a6fdd016731e498601f4a63915b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1568384811800911991, guid: bffb51fdf140a11419efcc9e4bd731bc, type: 3}
+  Txt_TimeSpawn: {fileID: 6432435729824938435, guid: 26f39b497d7766b40855039a1d912131, type: 3}
+  UI: {fileID: 0}
+  timeDeathBallApear: 2
+  deathBallPrefab: {fileID: 2530798562898789822, guid: 95bf69a1ca3adb04d9494a884440756d, type: 3}
+  checkGameOver: {fileID: 7738097108970448579, guid: 69b7a301eeaba2b48b432214a1e7c7a6, type: 3}
+  ballforGameOver: 4
+  Txt_countBalls: {fileID: 2622031623884512139, guid: 4d253ffbbf13af94fb33326efbbd4644, type: 3}
+  initialTimeSpawn: 2
+  mainCamera: {fileID: 2581648008382399338, guid: 99aae32001ade214ea7b2353b8ab8794, type: 3}

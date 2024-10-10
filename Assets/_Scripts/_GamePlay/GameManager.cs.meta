@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 459a6fdd016731e498601f4a63915b09
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreText: {fileID: 3444070335815881152, guid: 7228a52bc76bbbf468ff7c8ecf5b5ebf, type: 3}
+  - Txt_TimeSpawn: {fileID: 6432435729824938435, guid: 26f39b497d7766b40855039a1d912131, type: 3}
+  - deathBallPrefab: {fileID: 2530798562898789822, guid: 95bf69a1ca3adb04d9494a884440756d, type: 3}
+  - UI_GameOver: {fileID: 1525454174078617194, guid: 93ac66bd174cd0341a69950afd4c1e83, type: 3}
+  - checkGameOver: {fileID: 7738097108970448579, guid: 69b7a301eeaba2b48b432214a1e7c7a6, type: 3}
+  - Txt_countBalls: {instanceID: 0}
+  - mainCamera: {fileID: 2581648008382399338, guid: 99aae32001ade214ea7b2353b8ab8794, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

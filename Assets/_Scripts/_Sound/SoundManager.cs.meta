@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c5bdde3e8fa931c4fa15549ad0e56361
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blow: {fileID: 8300000, guid: 724e94ab0d8990c4d8eb2d0ce391fb80, type: 3}
+  - hit: {fileID: 8300000, guid: cecbf315c580fa3498b5cd7b6f0183eb, type: 3}
+  - clickMenu: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
